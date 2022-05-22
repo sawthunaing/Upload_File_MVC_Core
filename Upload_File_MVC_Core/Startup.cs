@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Upload_File_MVC_Core.Common.DataAccess;
 using Upload_File_MVC_Core.Common.Sample;
 using Upload_File_MVC_Core.Interfaces;
@@ -23,6 +24,7 @@ namespace Upload_File_MVC_Core
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+           
         }
 
         public IConfiguration Configuration { get; }
@@ -33,8 +35,13 @@ namespace Upload_File_MVC_Core
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddDbContext<ReadTxnContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("ReadConnection")));
+
             services.AddSingleton<ISample, SampleDI>();
             services.AddScoped<IDataAccesses, DataAccesses>();
+            services.AddScoped<IReadDataAccesses, ReadDataAccesses>();
             services.AddSwaggerGen();
         }
 
@@ -49,7 +56,8 @@ namespace Upload_File_MVC_Core
             });
             
             app.UseSwagger();
-            
+           
+
         }
     }
 }

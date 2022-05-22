@@ -12,13 +12,11 @@ using Upload_File_MVC_Core.ValidationAttribute;
 
 namespace Upload_File_MVC_Core.Models
 {
-    public class FileUploadViewModel
+    public class FileUploadViewModel 
     {
         [Required(ErrorMessage = "Please select a file.")]
         [DataType(DataType.Upload)]
-        [MaxFileSize(1 * 1024 )]
-        [AllowedExtensions(new string[] { ".xml", ".csv" })]
-        public List<IFormFile> PostedFiles { get; set; }
+        public IFormFile PostedFile { get; set; }
     }
     
 }

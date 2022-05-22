@@ -1,53 +1,41 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 namespace Upload_File_MVC_Core.Models
 {
-    public partial class UploadXmlFileModel
+    public class UploadXmlFileModel
     {
-        public partial class Transactions
+        public class Transactions
         {
-            [JsonProperty("Transaction")]
-            public Transaction[] Transaction { get; set; }
+            public List<Transaction> LstTransactions { get; set; }
         }
 
-        public partial class Transaction
-        {
-            [JsonProperty("TransactionDate")]
-            public DateTimeOffset TransactionDate { get; set; }
 
-            [JsonProperty("PaymentDetails")]
+        public class Transaction
+        {
+
+            public DateTime TransactionDate { get; set; }
+
+
             public PaymentDetails PaymentDetails { get; set; }
 
-            [JsonProperty("Status")]
+
             public string Status { get; set; }
 
-            [JsonProperty("_id")]
+
             public string Id { get; set; }
         }
 
-        public partial class PaymentDetails
+        public class PaymentDetails
         {
-            [JsonProperty("Amount")]
-            public string Amount { get; set; }
 
-            [JsonProperty("CurrencyCode")]
+            public Decimal Amount { get; set; }
+
+
             public string CurrencyCode { get; set; }
-        }
-
-        internal static class Converter
-        {
-            public static readonly JsonSerializerSettings Settings = new JsonSerializerSettings
-            {
-                MetadataPropertyHandling = MetadataPropertyHandling.Ignore,
-                DateParseHandling = DateParseHandling.None,
-                Converters =
-                {
-                    new IsoDateTimeConverter { DateTimeStyles = DateTimeStyles.AssumeUniversal }
-                },
-            };
         }
     }
 }

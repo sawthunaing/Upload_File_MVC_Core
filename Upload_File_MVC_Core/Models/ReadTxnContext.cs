@@ -4,10 +4,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Upload_File_MVC_Core.Models
 {
-    public class TxnContext : DbContext
+    public class ReadTxnContext : DbContext
     {
 
-        public TxnContext(DbContextOptions<TxnContext> options) : base(options)
+        public ReadTxnContext(DbContextOptions<ReadTxnContext> options) : base(options)
         {
 
         }

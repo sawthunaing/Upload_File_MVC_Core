@@ -12,8 +12,8 @@ namespace Upload_File_MVC_Core.Controllers
     {
         protected ISample _sample;
         protected readonly ILogger<ControllerBase> _logger;
-        protected IDataAccesses _data;
-        public APIBasedController(ISample sample, ILogger<APIBasedController> logger, IDataAccesses data)
+        protected IReadDataAccesses _data;
+        public APIBasedController(ISample sample, ILogger<APIBasedController> logger, IReadDataAccesses data)
         {
             _sample = sample;
             _logger = logger;

@@ -8,5 +8,6 @@ namespace Upload_File_MVC_Core.Interfaces
     public interface ISample
     {
         void write(String text);
+        void writetextfile(string text);
     }
 }

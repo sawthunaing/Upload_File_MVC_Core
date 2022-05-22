@@ -21,7 +21,7 @@ namespace Upload_File_MVC_Core.ValidationAttribute
         public void OnActionExecuting(ActionExecutingContext context)
         {
 
-            logger.write("OnActionExecuting");
+             logger.write("OnActionExecuting");
              Console.WriteLine("OnActionExecuting");
         }
 

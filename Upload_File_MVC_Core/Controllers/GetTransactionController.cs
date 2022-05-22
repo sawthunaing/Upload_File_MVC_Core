@@ -10,17 +10,16 @@ using Upload_File_MVC_Core.ValidationAttribute;
 
 namespace Upload_File_MVC_Core.Controllers
 {
-    [LogStatus]
+   // [LogStatus]
     [ApiController]
     [Route("[controller]/[action]")]
     public class GetTransactionController : APIBasedController
     {
         
-        public GetTransactionController(ISample sample, ILogger<APIBasedController> logger, IDataAccesses data) : base(sample, logger, data)
+        public GetTransactionController(ISample sample, ILogger<APIBasedController> logger, IReadDataAccesses data) : base(sample, logger, data)
         {
+
         }
-
-
 
         [HttpGet(Name = "GetTxnListById")]
         public ListData GetTxnListById(string txnId)
@@ -35,8 +34,10 @@ namespace Upload_File_MVC_Core.Controllers
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                _sample.writetextfile(e.Message + "GetTxnListById");
+
                 throw;
+
             }
            
         }
@@ -54,7 +55,7 @@ namespace Upload_File_MVC_Core.Controllers
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                _sample.writetextfile(e.Message + "GetTxnListByDateRange");
                 throw;
             }
 
@@ -74,7 +75,7 @@ namespace Upload_File_MVC_Core.Controllers
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                _sample.writetextfile(e.Message + "GetTxnListByStatus");
                 throw;
             }
 

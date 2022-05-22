@@ -11,7 +11,7 @@ namespace Upload_File_MVC_Core.Common
         public int Total { get; set; }
         public int Page { get; set; }
         public int PageSize { get; set; }
-        public List<TxnContext.TblTransaction> Rows { get; set; }
+        public List<OutputTxnModel> Rows { get; set; }
     }
 
     public class RequestListParams
