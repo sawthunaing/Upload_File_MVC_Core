@@ -44,3 +44,26 @@ C:\Users\stn-office\Downloads\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debu
 C:\Users\stn-office\Downloads\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.dll
 C:\Users\stn-office\Downloads\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.pdb
 C:\Users\stn-office\Downloads\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.csproj.CopyComplete
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\bin\Debug\netcoreapp2.1\Upload_File_MVC_Core.deps.json
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\bin\Debug\netcoreapp2.1\Upload_File_MVC_Core.runtimeconfig.json
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\bin\Debug\netcoreapp2.1\Upload_File_MVC_Core.runtimeconfig.dev.json
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\bin\Debug\netcoreapp2.1\Upload_File_MVC_Core.dll
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\bin\Debug\netcoreapp2.1\Upload_File_MVC_Core.pdb
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\bin\Debug\netcoreapp2.1\Upload_File_MVC_Core.Views.dll
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\bin\Debug\netcoreapp2.1\Upload_File_MVC_Core.Views.pdb
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.csproj.CoreCompileInputs.cache
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.RazorAssemblyInfo.cache
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.RazorAssemblyInfo.cs
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.AssemblyInfoInputs.cache
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.AssemblyInfo.cs
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.TagHelpers.input.cache
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.TagHelpers.output.cache
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.RazorCoreGenerate.cache
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.RazorTargetAssemblyInfo.cache
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.RazorTargetAssemblyInfo.cs
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.Views.pdb
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.dll
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.pdb
+D:\stn_working\Techincal Test\Upload_File_MVC_Core\Upload_File_MVC_Core\obj\Debug\netcoreapp2.1\Upload_File_MVC_Core.csproj.CopyComplete

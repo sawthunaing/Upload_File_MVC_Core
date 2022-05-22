@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stn-office\\Downloads\\Upload_File_MVC_Core\\Upload_File_MVC_Core\\Upload_File_MVC_Core.csproj": {}
+    "D:\\stn_working\\Techincal Test\\Upload_File_MVC_Core\\Upload_File_MVC_Core\\Upload_File_MVC_Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stn-office\\Downloads\\Upload_File_MVC_Core\\Upload_File_MVC_Core\\Upload_File_MVC_Core.csproj": {
+    "D:\\stn_working\\Techincal Test\\Upload_File_MVC_Core\\Upload_File_MVC_Core\\Upload_File_MVC_Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stn-office\\Downloads\\Upload_File_MVC_Core\\Upload_File_MVC_Core\\Upload_File_MVC_Core.csproj",
+        "projectUniqueName": "D:\\stn_working\\Techincal Test\\Upload_File_MVC_Core\\Upload_File_MVC_Core\\Upload_File_MVC_Core.csproj",
         "projectName": "Upload_File_MVC_Core",
-        "projectPath": "C:\\Users\\stn-office\\Downloads\\Upload_File_MVC_Core\\Upload_File_MVC_Core\\Upload_File_MVC_Core.csproj",
+        "projectPath": "D:\\stn_working\\Techincal Test\\Upload_File_MVC_Core\\Upload_File_MVC_Core\\Upload_File_MVC_Core.csproj",
         "packagesPath": "C:\\Users\\stn-office\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stn-office\\Downloads\\Upload_File_MVC_Core\\Upload_File_MVC_Core\\obj\\",
+        "outputPath": "D:\\stn_working\\Techincal Test\\Upload_File_MVC_Core\\Upload_File_MVC_Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
